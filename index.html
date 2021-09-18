@@ -10,8 +10,29 @@
     <style type="text/css">
 	/*Css formatação geral*/  
 
+      @font-face{
+        font-family: Poppins;
+        src: url(fonts/Poppins-Black.ttf);
+      }
+
       body {
         background-color: #6C63FF;
+      }
+
+      .fontepersonalizadagrande {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 100px;
+        line-height: 150px;
+      }
+
+      .fontepersonalizadapequena {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 75px;
       }
 
         </style>
@@ -19,40 +40,33 @@
       </head>
       
         <!--Primeira parte - titulo, propaganda e imagem-->
-        <section id="primeira parte" style="background-color: red; padding-bottom: 60px;">
-
-         <div style="width: 100%; text-align: center;">
-          <h1 style="color:white" style=" text-align: center;">Portfólio</h1>
+       <div class="col-md-12">
+       <h1 class="fontepersonalizadagrande" style="color:white" style=" text-align: center;">Portfólio</h1>
         </div>
 
-
-          <div id="text-left" class="col-md-6" style="background-color: white; text-align: center;">
-          <p>Olá, nós somos a 2L <br>
+          <div id="text-left" class="col-md-6 fontepersonalizadapequena" style="text-align: center;">
+          <p class="fontepersonalizadapequena" style="color: white">Olá, nós somos a 2L <br>
             Preparado para tirar sua ideia do papel? <br>
             Nossa equipe está pronta para te ajudar com seu projeto</p>
-        </div>
+          </div>
 
-        <div id="text-right" class="col-md-6" style="background-color: gray; text-align: center;">
-          <p style="font-size: 43px;">Aqui vai uma imagem</p>
-        </div>  
-        </section>
+          <div id="text-right" class="col-md-6" style="text-align: center;">
+            <img src="img/2l.jpg" alt="logo da empresa" style="width: 576px; height: 414px;">
+          </div>  
+        
 
         <!--Segunda parte - quem nos somos e descrição-->
-        <section id="segunda parte" style="background-color: red; padding-bottom: 60px;">
-
-          <div style="width: 100%; text-align: center;">
-           <h1 style="color:white" style=" text-align: center;">Quem nós somos?</h1>
-         </div>
- 
- 
-           <div id="descricao" class="col-md-12" style="background-color: white; text-align: center;">
+         <section>
+           <div style="width: 100%;">
+           <h1 class="fontepersonalizadapequena" style="color:white; text-align: center; font-size: 80px; line-height: 120px;">Quem nós somos?</h1>
+           </div>
+          </section>
+          <div id="descricao" class="col-md-12" style="background-color: white; text-align: center;">
            <p>A 2L é uma startup fundada por dois desenvolvedores, ambos já estão há um bom tempo no mercado e estão altamente preparados para te ajudar, nossa única intenção é solucionar o problema de muitas pessoas, com praticidade, melhores técnicas e  tudo com a mais alta tecnologia disponível</p>
          </div>
-         </section>
+        
 
          <!--Terceira parte - skills-->
-        <section id="terceira parte" style="background-color: red; padding-bottom: 120px;">
-
           <div style="width: 100%; text-align: center;">
            <h1 style="color:white" style=" text-align: center;">Nossas skills</h1>
          </div>
@@ -61,11 +75,9 @@
            <p style="font-size: 60px;">Graficos com as skills</p>
          </div>
           
-         </section>
+         
 
          <!--Quarta parte - projetos-->
-        <section id="quarta parte" style="background-color: red; padding-bottom: 60px;">
-
           <div style="width: 100%; text-align: center;">
            <h1 style="color:white" style=" text-align: center;">Nossos projetos</h1>
          </div>
@@ -81,17 +93,15 @@
           <div class="col-md-6" style="background-color: blue; height: 150px;"><p style="font-size: 50px; text-align: center; color: white;">Projeto 3</p></div>
           <div class="col-md-6" style="background-color: gray; height: 150px;"><p style="font-size: 50px; text-align: center; color: white;">Projeto 4</p></div>
          </div>
-         </section>
+         
 
-         <!--Quinta parte - frase efeito-->-
-        <section id="terceira parte" style="background-color: red; padding-bottom: 20px;">
-
+         <!--Quinta parte - frase efeito-->
           <div style="width: 100%; text-align: center;">
            <h1 style="color:white" style=" text-align: center; font-size: 50px;">E aí, tá esperando o que?</h1>
            <h1 style="color:white" style=" text-align: center; font-size: 50px;">O melhor momento para iniciar seu projeto é AGORA</h1>
            <h1 style="color:white" style=" text-align: center; font-size: 50px;">E nós estamos aqui para te ajudar</h1>
           
-         </section>
+         
 
 
 
