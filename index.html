@@ -25,6 +25,7 @@
         font-weight: 900;
         font-size: 80px;
         line-height: 140px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
 
       .fontepersonalizadapequena {
@@ -33,6 +34,7 @@
         font-weight: 900;
         font-size: 40px;
         line-height: 75px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
 
       .projetos {
@@ -41,6 +43,25 @@
         margin: 30px;
         text-align: center; 
         border-radius: 32px;
+      }
+
+      .h1-projetos {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 50;
+        font-size: 16px;
+        line-height: 28,8px;
+        text-align: left;
+      }
+
+      .btn-projetos {
+        color: black; 
+        background-color: white;
+        border-radius: 8px;
+        background: rgba(245, 245, 245, 0.8);
+        padding: 6px 12px;
+        align-items: center;
+        border: 0;
       }
 
         </style>
@@ -62,7 +83,7 @@
 
           <div id="text-right" class="col-lg-6" style="text-align: center;">
             
-            <img src="img/2l.jpg" alt="logo da empresa" style="width: 576px; height: 414px;">
+            <img src="img/2l.png" alt="logo da empresa" style="width: 576px; height: 414px;">
             
           </div>  
           </div>
@@ -93,23 +114,45 @@
           
                 
          <!--Quarta parte - projetos-->
+         <!--PÔR OS LINKS NOS BUTTONS-->
           <div style="width: 100%; text-align: center; padding-top: 50px;">
            <h1 class="fontepersonalizadapequena" style="color:white; font-size: 60px; line-height: 120px;">Nossos projetos</h1>
          </div>
          
          <!--container pra centralizar-->
-         <div class="container">
-          <div class="row">
-          <div class="col-lg-5 projetos"> <img src="img/2l.jpg" style="width: 250px; height: 150px;"> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta animi voluptatibus veniam quas eum temporibus, laudantium ducimus. A itaque in iure. Sequi saepe pariatur excepturi vel non quas reiciendis. Eaque?</p> </div>
-          <div class="col-lg-5 projetos"> <img src="img/2l.jpg" style="width: 250px; height: 150px;"> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta animi voluptatibus veniam quas eum temporibus, laudantium ducimus. A itaque in iure. Sequi saepe pariatur excepturi vel non quas reiciendis. Eaque?</p> </div>
+            <div class="container">
+            <div class="row">
+            <div class="col-lg-5 projetos"> 
+
+              <img src="img/Landing page geear  1.png" style="max-width: 414px; height: 250px;">
+         
+              <h1 class="h1-projetos">Landing Page para vagas de emprego.</h1>
+            <p style="text-align: left;">Landing Page com foco em vaga de emprego, com total responsividade e SEO.</p> 
+            <button type="button" class="btn btn-primary btn-sm btn-projetos pull-left">Website</button>
+            </div>
+
+          <div class="col-lg-5 projetos"> <img src="img/Landing page 2 1.png" style="height: 250px;"> 
+            <h1  class="h1-projetos">Landing Page para venda de casas e apartamentos</h1>
+            <p style="text-align: left;">Landing Page com foco em venda de imóveis, para todos tipos de valores, com total responsividade, SEO e velocidade.</p>
+            <button type="button" class="btn btn-primary btn-sm btn-projetos pull-left">Website</button>
           </div>
-        </div>
+          </div>
+          </div>
 
          <!--container pra centralizar-->
          <div class="container">
           <div class="row">
-          <div class="col-lg-5 projetos"> <img src="img/2l.jpg" style="width: 250px; height: 150px;"> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta animi voluptatibus veniam quas eum temporibus, laudantium ducimus. A itaque in iure. Sequi saepe pariatur excepturi vel non quas reiciendis. Eaque?</p> </div>
-          <div class="col-lg-5 projetos"> <img src="img/2l.jpg" style="width: 250px; height: 150px;"> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta animi voluptatibus veniam quas eum temporibus, laudantium ducimus. A itaque in iure. Sequi saepe pariatur excepturi vel non quas reiciendis. Eaque?</p> </div>
+          <div class="col-lg-5 projetos"> <img src="img/exattus.png" style="height: 250px;"> 
+            <h1  class="h1-projetos">Landing Page para Vendas de Cursos EAD</h1>
+            <p style="text-align: left;">Landing Page com foco em venda de cursos Ead, com responsividade, SEO e velocidade.</p>
+            <button type="button" class="btn btn-primary btn-sm btn-projetos pull-left">Website</button>
+          </div>
+
+          <div class="col-lg-5 projetos"> <img src="img/hb.png" style="height: 250px;"> 
+            <h1  class="h1-projetos">Cardápio Online</h1>
+            <p style="text-align: left;">Cardápio online com foco em 3 lançamentos de hambúrgueres, total responsividade, SEO e velocidade.</p>         
+            <button type="button" class="btn btn-primary btn-sm btn-projetos pull-left">Website</button>            
+          </div>
           </div>
         </div>
 
@@ -123,8 +166,8 @@
          <!--Quinta parte - frase efeito-->
            <div style="width: 100%; text-align: center; padding-top: 50px;">
             <h1 class="fontepersonalizadapequena" style="color:white; text-align: center;">E aí, tá esperando o que? <br>
-            O melhor momento para iniciar seu projeto é AGORA <br>
-            E nós estamos aqui para te ajudar</h1>
+            O melhor momento para iniciar seu projeto é <span class="fontepersonalizadapequena" style="color:#E786D7;">AGORA</span> <br>
+            E nós <span class="fontepersonalizadapequena" style="color:#E786D7;">estamos aqui</span>  para te ajudar</h1>
             </div>
          
 
